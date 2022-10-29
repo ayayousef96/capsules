@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>Bootcamp Capsules</h2>
+        <br>
+    
+        <input class="btn" id ='load' type='button' onclick='get_data()' 
+            value='load data' />
+        
+        <input class="btn" type="text" id="search"  onclick="search()"  placeholder="search" >
+        <select id="select" class="btn" >
+            <option>firstName</option>
+            <option>lastName</option>
+            <option>age</option>
+            <option>hobby</option>
+            <option>city</option>
+            <option>gender</option>
+            <option>hobby</option>
+            <option>capsule</option>
+
+        </select>
+        
+        
+        <input class="btn" type="button" id="edit" value="edit table" onclick='edit_table()'>
+        
+        
+        <p id='showData'></p>
+    </center>
+
+    
+    
+</body>
+<script src="app.js" ></script>
+</html>

@@ -1,0 +1,62 @@
+* { 
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+    
+ }
+ body{
+    font-family: 'M PLUS 1', sans-serif;;
+    font-size: 22px;
+    color: aliceblue;
+    background-color: black;
+    background-image: url(https://www.arkasoftwares.com/blog/wp-content/uploads/2020/12/imgpsh_fullsize_anim-1.jpg);
+    background-size: cover;
+ }
+ 
+table, th, td {
+      border: solid 1px black;
+      border-collapse: collapse;
+      padding: 5px;
+      
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#f2ebf4 ;
+    color: black;
+}
+tr:nth-child(even){
+    background-color: #b70cdd;
+}
+th {
+      background-color: rgb(10, 1, 11);
+      color: white;
+}
+#search{
+    border-radius: 5px;
+    height: 20px;
+
+}
+#edit{
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+
+}
+#load{
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+
+}
+
+#select{
+    border-radius: 5px;
+    height: 20px;
+}
+.btn:hover {
+    background-color: black;
+    border: #b70cdd solid 2px;
+    color: #f2ebf4;
+}
